@@ -97,7 +97,7 @@ model = HuggingFaceModel(
 ## Quickstart
 
 ```bash
-git clone https://github.com/shivamkesarwani1/indic-eval
+git clone https://github.com/shivamkesarwani-intelligencemodelling/indic-eval
 cd indic-eval
 pip install -e .
 ```
@@ -303,7 +303,7 @@ If you use `indic-eval` in research, please cite:
   author    = {Kesarwani, Shivam},
   title     = {indic-eval: Evaluation Harness for LLMs on Indic Language Tasks},
   year      = {2026},
-  url       = {https://github.com/shivamkesarwani1/indic-eval},
+  url       = {https://github.com/shivamkesarwani-intelligencemodelling/indic-eval},
 }
 ```
 
