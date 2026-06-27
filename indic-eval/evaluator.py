@@ -2,8 +2,8 @@ import json, time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, Optional, Dict, Any
-from indic-eval.models import BaseModel
-from indic-eval.tasks import get_task, ALL_TASKS, TaskResult
+from indic_eval.models import BaseModel
+from indic_eval.tasks import get_task, ALL_TASKS, TaskResult
 
 @dataclass
 class EvalReport:

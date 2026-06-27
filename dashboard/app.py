@@ -306,9 +306,9 @@ if "Run" in mode:
             st.error("Please enter a model name.")
         else:
             try:
-                from indic-eval.models import load_model
-                from indic-eval.tasks import get_task
-                from indic-eval.evaluator import EvalReport
+                from indic_eval.models import load_model
+                from indic_eval.tasks import get_task
+                from indic_eval.evaluator import EvalReport
 
                 if "API" in model_type:
                     model_config = {"type": "api", "model": model_name,

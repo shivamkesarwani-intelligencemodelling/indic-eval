@@ -3,9 +3,9 @@ import re, time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import List, Dict, Any
-from indic-eval.metrics import (exact_match, token_f1, bleu, chrf,
+from indic_eval.metrics import (exact_match, token_f1, bleu, chrf,
                                  rouge_l, mcq_accuracy, latency_stats, MetricResult)
-from indic-eval.models import BaseModel, ModelResponse
+from indic_eval.models import BaseModel, ModelResponse
 
 @dataclass
 class TaskResult:
